@@ -1,0 +1,81 @@
+// app global css in SCSS form
+.text-columbusBrand {
+  color: #FAFAFC;
+}
+.text-prussianBlue {
+color: #0E3A5E;
+}
+.text-stormDark {
+color: #4F5A69;
+}
+
+.bg-columbusBrand {
+background: #FF8217;
+}
+.bg-prussianBlue {
+background: #0E3A5E;
+}
+
+.bg-prussianBlueLight {
+background: #064578;
+}
+
+@font-face {
+font-family: columbusBold;
+src: url(./fonts/ColumbusBold.ttf);
+// src: url(./fonts/font6.otf);
+}
+
+@font-face {
+font-family: columbus;
+src: url(./fonts/Columbus.ttf);
+// src: url(./fonts/font6.otf);
+}
+
+@font-face {
+font-family: calibri;
+src: url(./fonts/Calibri.woff);
+// src: url(./fonts/font6.otf);
+}
+
+@font-face {
+font-family: calibri-bold;
+src: url(./fonts/calibri-bold.ttf);
+// src: url(./fonts/font6.otf);
+}
+
+@font-face {
+font-family: georgia;
+src: url(./fonts/georgia.woff);
+// src: url(./fonts/font6.otf);
+}
+
+@font-face {
+font-family: georgia-bold;
+src: url(./fonts/georgia-Bold.woff);
+// src: url(./fonts/font6.otf);
+}
+// declare a class which applies it
+.columbus-bold {
+font-family: 'columbusBold';
+}
+
+.columbus {
+font-family: 'columbus';
+}
+
+.calibri {
+font-family: 'calibri';
+}
+
+.calibriBold {
+font-family: 'calibri-bold';
+}
+
+.georgia {
+font-family: 'georgia';
+}
+
+.georgia-bold {
+font-family: 'georgia-bold';
+}
